@@ -10,9 +10,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 2a2bacda9b727e044bd5cd6adeeb7c4c, type: 3}
-  m_Name: Pong 3D
+  m_Name: Atret
   m_EditorClassIdentifier: 
-  title: 'Project : Pong 3D - Ballistic'
-  content: A 4 Local-Multiplayer 3D pong-like game to fullfil FGA Game Programming's
-    task.
-  contentImage: {fileID: 2800000, guid: e03084b6049b8944b948e4f1edde036b, type: 3}
+  title: 'Project : Atret'
+  content: My attempt on creating infinite run game
+  contentImage: {fileID: 0}

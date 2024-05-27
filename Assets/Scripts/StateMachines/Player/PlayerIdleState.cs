@@ -11,6 +11,7 @@ public class PlayerIdleState : PlayerBaseState
 
     public override void Enter()
     {
+        stateMachine.InputReader.InteractEvent += Interact;
         stateMachine.InputReader.JumpPressEvent += OnJumpPress;
         stateMachine.Rigidbody.gravityScale = stateMachine.Stats.defaultGravityScale;
 
@@ -19,6 +20,8 @@ public class PlayerIdleState : PlayerBaseState
 
     public override void Exit()
     {
+
+        stateMachine.InputReader.InteractEvent -= Interact;
         stateMachine.InputReader.JumpPressEvent -= OnJumpPress;
     }
 

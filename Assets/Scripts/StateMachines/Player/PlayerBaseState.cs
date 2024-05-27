@@ -14,8 +14,6 @@ public abstract class PlayerBaseState : State
     {
         this.stateMachine = stateMachine;
         stateMachine.CurrentState = this.GetType().Name;
-        stateMachine.InputReader.InteractEvent += Interact;
-
     }
 
     protected void Move(Vector2 motion, float deltaTime)
@@ -80,6 +78,7 @@ public abstract class PlayerBaseState : State
     {
         if (data != null)
         {
+            Debug.Log(data);
             stateMachine.ContentCanvas.GetComponent<ContentReader>().contentData = data;
             stateMachine.ContentCanvas.SetActive(true);
             stateMachine.SwitchState(new PlayerReadingState(stateMachine));
