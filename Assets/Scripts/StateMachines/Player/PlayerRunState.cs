@@ -5,6 +5,7 @@ using UnityEngine;
 public class PlayerRunState : PlayerBaseState
 {
 
+    private float coyoteTimer = 0f;
     private readonly int RunHash = Animator.StringToHash("Run");
 
     public PlayerRunState(PlayerStateMachine stateMachine) : base(stateMachine) { }
@@ -27,6 +28,10 @@ public class PlayerRunState : PlayerBaseState
         if (stateMachine.InputReader.MovementValue == Vector2.zero)
         {
             stateMachine.SwitchState(new PlayerIdleState(stateMachine));
+        }
+        if (!isGrounded() && coyoteTimer >= stateMachine.Stats.coyoteTime)
+        {
+            stateMachine.SwitchState(new PlayerFallingState(stateMachine));
         }
         Move(CalculateMovement(), deltaTime);
     }

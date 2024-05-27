@@ -6,6 +6,6 @@ using UnityEngine;
 public class ContentData : ScriptableObject
 {
     public string title;
-    public string content;
+    [TextArea(10, 100)] public string content;
     public Texture contentImage;
 }

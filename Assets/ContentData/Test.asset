@@ -12,6 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2a2bacda9b727e044bd5cd6adeeb7c4c, type: 3}
   m_Name: Test
   m_EditorClassIdentifier: 
-  title: Tytyd
-  content: Kejuaraan catur
+  title: Lorem Dibsum
+  content: Asdfg zxcvb
   contentImage: {fileID: 0}

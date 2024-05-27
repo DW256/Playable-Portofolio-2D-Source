@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2a2bacda9b727e044bd5cd6adeeb7c4c, type: 3}
+  m_Name: About Me
+  m_EditorClassIdentifier: 
+  title: About Me
+  content: "Hi, I'm Dwi Wahyu Aji Kurniawan!\n\nI graduated with computer degree
+    from University of Jember  in 2022. I'm currently hoping to join Game Industry
+    as a Programmer. \r\n\r\nI am currently based in Jember, East Java, Indonesia
+    but I'm open to move or work remotely if needed.\r\n"
+  contentImage: {fileID: 0}

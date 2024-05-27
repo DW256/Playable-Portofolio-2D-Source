@@ -12,5 +12,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fe9d569a3f8093340a5f3134383d1001, type: 3}
   m_Name: Virtual Guy
   m_EditorClassIdentifier: 
-  speed: 2
-  jumpSpeed: 20
+  speed: 5
+  jumpHeight: 3
+  jumpButtonTime: 0.5
+  wallJumpAmplifier: 1
+  wallJumpLockInputTime: 5
+  coyoteTime: 0
+  defaultGravityScale: 1
+  jumpGravityScale: 10
+  fallingGravityScale: 7
+  wallSlideGravityScale: 1
+  climbableMask:
+    serializedVersion: 2
+    m_Bits: 128
+  groundMask:
+    serializedVersion: 2
+    m_Bits: 384
+  interactableMask:
+    serializedVersion: 2
+    m_Bits: 512
