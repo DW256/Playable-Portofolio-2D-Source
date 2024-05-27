@@ -8730,7 +8730,7 @@ PrefabInstance:
     - target: {fileID: 240355507202882994, guid: 2f128ffab5c277c47a680c2487044961, type: 3}
       propertyPath: ContentData
       value: 
-      objectReference: {fileID: 11400000, guid: a6158788c25015744825abf18862f873, type: 2}
+      objectReference: {fileID: 11400000, guid: ab5c215278b634644b87a920f4cd8beb, type: 2}
     - target: {fileID: 6489446174978811880, guid: 2f128ffab5c277c47a680c2487044961, type: 3}
       propertyPath: m_Name
       value: NPC - Pinball
