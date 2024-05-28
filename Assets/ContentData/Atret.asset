@@ -13,5 +13,5 @@ MonoBehaviour:
   m_Name: Atret
   m_EditorClassIdentifier: 
   title: 'Project : Atret'
-  content: My attempt on creating infinite run game
-  contentImage: {fileID: 0}
+  content: My attempt on creating infinite run game, but you go backward in a car.
+  contentImage: {fileID: 2800000, guid: 46ba644a0c9f4274aa4db3814a02099c, type: 3}
