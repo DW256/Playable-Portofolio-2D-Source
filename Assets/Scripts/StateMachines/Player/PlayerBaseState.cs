@@ -1,9 +1,4 @@
-using Unity.VisualScripting;
-using UnityEditor.Build;
 using UnityEngine;
-using UnityEngine.Scripting.APIUpdating;
-using UnityEngine.UIElements;
-using static UnityEngine.RuleTile.TilingRuleOutput;
 
 public abstract class PlayerBaseState : State
 {
@@ -78,7 +73,7 @@ public abstract class PlayerBaseState : State
     {
         if (data != null)
         {
-            Debug.Log(data);
+            //Debug.Log(data);
             stateMachine.ContentCanvas.GetComponent<ContentReader>().contentData = data;
             stateMachine.ContentCanvas.SetActive(true);
             stateMachine.SwitchState(new PlayerReadingState(stateMachine));
